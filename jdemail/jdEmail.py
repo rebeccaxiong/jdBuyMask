@@ -14,13 +14,13 @@ def sendMail(mail, url, isOrder):
 
         # 用于构建邮件头
         # 发信方的信息：发信邮箱，QQ 邮箱授权码
-        from_addr = 'jdbuymask@163.com'
-        password = 'alpsneahcyz123'
+        from_addr = '540518514@qq.com'
+        password = 'kytjhosonkldbajg'
 
         # 收信方邮箱
-        to_addr = mail
+        to_addr = 540518514@qq.com
         # 发信服务器
-        smtp_server = 'smtp.163.com'
+        smtp_server = 'smtp.qq.com'
         # 邮箱正文内容，第一个参数为内容，第二个参数为格式(plain 为纯文本)，第三个参数为编码
         if isOrder:
             msg = MIMEText(url + ' 类型口罩，已经下单了。24小时内付款', 'plain', 'utf-8')
